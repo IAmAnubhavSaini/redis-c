@@ -3,4 +3,4 @@ project(redis_c C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_executable(redis_c main.c)
+add_executable(redis_c server.c)
